@@ -37,6 +37,18 @@ def processar_pagamento(pag: Pagamento):
     pag.resumo()
     pag.processar()
 
+def MetodoCartao():
+    def __init__(self, numero: str, titular: str, limite: float, bandeira: str = "Visa") :
+        self.numero = numero
+        self.titular = titular
+        self. limite = limite
+        self.bandeira = bandeira
+
+def processar_pag(self, valor: float, desc: str):
+    if valor > self.limite
+
+
+
 metodoPix = MetodoPix("pagar@picpay.com")
 metodoCartao = MetodoCartao("123123123", 500)
 pagamento = Pagamento(desc="salgado", valor=5.90, metodo_pag=metodoPix)
@@ -45,3 +57,5 @@ pagamento.processar()
 # ACOPLAMENTO
 # dependencia baixa
 # dependencia alta
+
+# brincadeira da semana: Strategy patthern.  
